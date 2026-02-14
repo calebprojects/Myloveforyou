@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `For the love of my life, with all my heart:\n\nDesde el primer momento supe que eras tú. Tu sonrisa, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = "For the love of my life, with all my heart:\n\nDesde que nos conocimos he tenido un buen presentimiento de que ibas a ser alguien muy importante e influyente en mi vida, lo has sido y eres. Amo cómo eres, tu forma de ser, tu sonrisa, tu voz, TODO. Doy gracias al Gran Creador por preparar el camino para ponernos como ayuda y apoyo.\n\nContigo he aprendido y comprendido mejor lo que significa amar. Puedo decir con seguridad que te amo, te amo y eres la chica de mis sueños, el amor de mi vida.";  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
